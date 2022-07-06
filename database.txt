@@ -1,0 +1,246 @@
+// // ****************************************** User: *****************
+
+// {
+//   "displayName": "Cute cat1",
+//   "username":    "admin1",
+//   "password":    "cat1"
+// }
+// {
+//   "displayName": "Cute cat2",
+//   "username":    "admin2",
+//   "password":    "cat2"
+// }
+// {
+//   "displayName": "Cute cat3",
+//   "username":    "admin3",
+//   "password":    "cat3"
+// }
+// {
+//   "displayName": "Cute cat4",
+//   "username":    "provider1",
+//   "password":    "cat4"
+// }
+// {
+//   "displayName": "Cute cat5",
+//   "username":    "provider2",
+//   "password":    "cat5"
+// }
+// {
+//   "displayName": "Cute cat6",
+//   "username":    "provider3",
+//   "password":    "cat6"
+// }
+// {
+//   "displayName": "Cute cat7",
+//   "username":    "cimtUser1",
+//   "password":    "cat7"
+// }
+// {
+//   "displayName": "Cute cat8",
+//   "username":    "cimtUser2",
+//   "password":    "cat8"
+// }
+// {
+//   "displayName": "Cute cat9",
+//   "username":    "cimtUser3",
+//   "password":    "cat9"
+// }
+
+// // ****************************************** Admin: *****************
+// {
+//   "email":"admin1@team4.com",
+//   "UserId":1
+// }
+// {
+//   "email":"admin2@team4.com",
+//   "UserId":2
+// }
+// {
+//   "email":"admin3@team4.com",
+//   "UserId":3
+// }
+
+// // ****************************************** Provider: *****************
+// {
+//   "address":"111 Street, Some City, Some State, 11111",
+//   "UserId":4
+// }
+// {
+//   "address":"222 Street, Some City, Some State, 22222",
+//   "UserId":5
+// }
+// {
+//   "address":"333 Street, Some City, Some State, 33333",
+//   "UserId":6
+// }
+
+// // ****************************************** CimtUser: *****************
+// {
+//   "phone":"111-111-1111",
+//   "UserId":7
+// }
+// {
+//   "phone":"222-222-2222",
+//   "UserId":8
+// }
+// {
+//   "phone":"333-333-3333",
+//   "UserId":9
+// }
+
+// // ****************************************** Resource: *****************
+// {
+//   "name":"resource1",
+//   "description":"resource-description1",
+//   "capability":"capability1",
+//   "distance":1,
+//   "cost":1,
+//   "ResourceFunctionId":1,
+//   "UnitId":1,
+//   "UserId":1
+// }
+// {
+//   "name":"resource2",
+//   "description":"resource-description1",
+//   "capability":"capability2",
+//   "distance":2,
+//   "cost":2,
+//   "ResourceFunctionId":2,
+//   "UnitId":2,
+//   "UserId":2
+// }
+
+
+
+// // ****************************************** ResourceFunction: *****************
+// {
+//   "id": 1,
+//   "description": "#1: transportation"
+// }
+// {
+//   "id": 2,
+//   "description": "#2: communications"
+// }
+// {
+//   "id": 3,
+//   "description": "#3: engineering"
+// }
+// {
+//   "id": 4,
+//   "description": "#4: search and rescue"
+// }
+// {
+//   "id": 5,
+//   "description": "#5: education"
+// }
+// {
+//   "id": 6,
+//   "description": "#6: energy"
+// }
+// {
+//   "id": 7,
+//   "description": "#7: firefighting"
+// }
+// {
+//   "id": 8,
+//   "description": "#8: human services"
+// }
+
+
+
+
+// // ****************************************** Unit: *****************
+// {
+//   "unitType":"hour"
+// }
+// {
+//   "unitType":"day"
+// }
+// {
+//   "unitType":"week"
+// }
+// {
+//   "unitType":"each"
+// }
+// {
+//   "unitType":"use"
+// }
+// INSERT INTO `Units` (`id`,`unitType`) VALUES (DEFAULT,?);
+
+
+// // ****************************************** Incident: *****************
+
+// {
+//   "id":`${categoryId}-1`,
+// }
+
+// {
+//   "Date":"2022-01-01",
+//   "Description":"incident c1-1",
+//   "CategoryId":1,
+//   "UserId":1
+// }
+// {
+//   "Date":"2022-02-01",
+//   "Description":"incident c1-2",
+//   "CategoryId":1,
+//   "UserId":2
+// }
+// {
+//   "Date":"2022-03-01",
+//   "Description":"incident c2-1",
+//   "CategoryId":2,
+//   "UserId":3
+// }
+// {
+//   "Date":"2022-03-02",
+//   "Description":"incident c2-2",
+//   "CategoryId":2,
+//   "UserId":4
+// }
+// {
+//   "Date":"2022-04-02",
+//   "Description":"incident c3-1",
+//   "CategoryId":3,
+//   "UserId":5
+// }
+// {
+//   "Date":"2022-05-02",
+//   "Description":"incident c3-2",
+//   "CategoryId":3,
+//   "UserId":6
+// }
+// {
+//   "Date":"2022-06-01",
+//   "Description":"incident c4-1",
+//   "CategoryId":4,
+//   "UserId":7
+// }
+// {
+//   "Date":"2022-06-02",
+//   "Description":"incident c4-2",
+//   "CategoryId":4,
+//   "UserId":8
+// }
+
+
+
+// // ****************************************** Category: *****************
+
+// {
+//   "id": "C1",
+//   "CategoryType": "must evac, secure lockdown"
+// }
+// {
+//   "id": "C2",
+//   "CategoryType": "may evac, secure lockdown"
+// }
+// {
+//   "id": "C3",
+//   "CategoryType": "no evac, limited lockdownc"
+// }
+// {
+//   "id": "C4",
+//   "CategoryType": "no evac, no lockdown"
+// }
+ 
